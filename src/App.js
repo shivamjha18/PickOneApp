@@ -26,6 +26,7 @@ class App extends React.Component{
     render(){
         const{advice}=this.state;
         return(
+            <>
             <div className="app">
                 <div className="card">
                 <h1 className="header">{advice}</h1>
@@ -35,8 +36,13 @@ class App extends React.Component{
                 </span>
             </button>
                 </div>
+                
             
             </div>
+            <footer className="footer">
+                Copyright © ShivamJha2022
+                </footer>
+            </>
             
         );
     }

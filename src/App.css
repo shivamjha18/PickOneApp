@@ -1,7 +1,7 @@
 #root,html,body{
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    height: 97vh;
     box-sizing: border-box;
 }
 
@@ -124,4 +124,8 @@
         width: 100px;
     }
     
+}
+.footer{
+   background-color:lightgoldenrodyellow ;
+   text-align: center;
 }
